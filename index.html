@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./assets/style.css" />
+  <title>Weather API</title>
+</head>
+
+<body>
+   <h1>Weather Dashboard</h1>
+   <div class="container">
+      <div class="weather-input">
+        <h3>Enter a City:</h3>
+        <input class="cityInput" type="text" placeholder="Austin, Chicago, New York, etc.">
+        <button class="searchBtn">Search</button>
+      </div>
+   </div>
+<div class="data">
+    <div class="currentWeather">
+        <div class="weatherData">
+            <h2>City (date)</h2>
+            <h4>temperature: (____)</h4>
+            <h4>wind: (____)</h4>
+            <h4>humidity: (____)</h4>
+        </div>
+    </div>
+    <div class="forecast">
+       <h2>5-Day Forecast</h2>
+       <ul class="weather-card">
+        <li class="card">
+            <h3>(date)</h3>
+            <img src="https://openweathermap.org/img/wn/10d@2x.png" alt="weather-icon">
+            <h4>temp: (__)</h4>
+            <h4>wind: (__)</h4>
+            <h4>humidity: (__)</h4>
+          </li>
+          <li class="card">
+            <h3>(date)</h3>
+            <img src="https://openweathermap.org/img/wn/10d@2x.png" alt="weather-icon">
+            <h4>temp: (__)</h4>
+            <h4>wind: (__)</h4>
+            <h4>humidity: (__)</h4>
+          </li>
+          <li class="card">
+            <h3>(date)</h3>
+            <img src="https://openweathermap.org/img/wn/10d@2x.png" alt="weather-icon">
+            <h4>temp: (__)</h4>
+            <h4>wind: (__)</h4>
+            <h4>humidity: (__)</h4>
+          </li>
+          <li class="card">
+            <h3>(date)</h3>
+            <img src="https://openweathermap.org/img/wn/10d@2x.png" alt="weather-icon">
+            <h4>temp: (__)</h4>
+            <h4>wind: (__)</h4>
+            <h4>humidity: (__)</h4>
+          </li>
+          <li class="card">
+            <h3>(date)</h3>
+            <img src="https://openweathermap.org/img/wn/10d@2x.png" alt="weather-icon">
+            <h4>temp: (__)</h4>
+            <h4>wind: (__)</h4>
+            <h4>humidity: (__)</h4>
+          </li>
+
+       </ul>
+    </div>
+</div>
+<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="./assets/script.js"></script>
+</body>
