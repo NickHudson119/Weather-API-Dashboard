@@ -5,6 +5,8 @@
 I was given the task to to make a website that you can search for a city and it will give you the weather forecast for that day, and also the next 5 day forecast of that city. In order to get the city name that you search for to pull up you had to make a fetch request to the api requesting for the latitude and longitude coordinates. I got a little stuck trying to figure out how I am going to display the results of my fetch request, to rewrite the html in my javascript and have the data and cities to display like that. So once I created the function to grab the city cooridantes by the value of the input and also created the function to fetch and parse through all the weather details I need to display on my page then I created my function replace the default stuff I have on my page and replace it with all the data in the same format I have in the html.
 
 [github repo link](https://github.com/NickHudson119/Weather-API-Dashboard) 
+
+[deployed application link](https://nickhudson119.github.io/Weather-API-Dashboard/)
 ```
 ## User Story
 

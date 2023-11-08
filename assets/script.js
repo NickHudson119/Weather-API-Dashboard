@@ -30,7 +30,7 @@ function makeWeatherCard(cities, weatherItem, index) {
 }
 
 async function weatherDetails(cities, lat, lon) {
-    const weatherApi = "http://api.openweathermap.org/data/2.5/forecast/?lat=" + lat + "&lon=" + lon + "&appid=" + ApiKey
+    const weatherApi = "https://api.openweathermap.org/data/2.5/forecast/?lat=" + lat + "&lon=" + lon + "&appid=" + ApiKey
 let forecastDay = []
     fetch(weatherApi).then(function(res){
         return res.json().then(function(data){
@@ -61,7 +61,7 @@ function citysCoordinates() {
     const cities = cityInput.value.trim()
     if(!cities) return
 
-    const ApiUrl = "http://api.openweathermap.org/geo/1.0/direct?q=" + cities + "&limit=1&appid=" + ApiKey;
+    const ApiUrl = "https://api.openweathermap.org/geo/1.0/direct?q=" + cities + "&limit=1&appid=" + ApiKey;
 //use fetch to fetch the data I want, and process it as JSON
     fetch(ApiUrl).then(function(res) {
         return res.json();
